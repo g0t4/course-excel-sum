@@ -5,3 +5,12 @@
   - [LICENSE-2.0.txt](./LICENSE-2.0.txt)
   - originals: [html](https://www.apache.org/licenses/LICENSE-2.0) and [txt](https://www.apache.org/licenses/LICENSE-2.0.txt)
 - I downloaded version `3` on 2021-08-12
+
+## subsets
+
+```bash
+
+# ten-days subset:
+cat "goldstock v2.csv" | head -11 > subsets/goldstock-ten-days.csv
+
+```
